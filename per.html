@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            RESULT
+        </title>
+        <style>
+            .main{
+               background-image: none;
+               
+                color: rgb(255, 255, 255);
+                max-width: 500px;
+                padding: 50px;
+                margin-left: 25%;
+                 margin-top: 10%;
+                
+               
+            }
+            .b button{
+                color: rgb(15, 1, 1);
+                text-align: center;
+                background: linear-gradient(45deg , white, orange);
+            }
+            .b button:hover {
+                cursor: pointer;
+                background: linear-gradient(45deg , white, orange);
+                border-radius: 20%;
+                color: black;
+                box-shadow: 0 2px 13px rgba(0, 0, 0, 1);
+
+            }
+            
+        </style>
+         
+    </head>
+    <body style="background-image: url(./AK.jfif); background-size: 100%;">
+        <div class="main">
+            <h2>RESULTS</h2>
+            <form onsubmit="return tm()">
+                <div>
+                    
+                    <input type="text" id="text1" placeholder="ENTER YOUR MARKS" >
+                </div><br>
+                <div>
+                    
+                    <input type="text" id="text2" placeholder="TOTAL MARKS">
+                </div><br>
+                <div class="b">
+                    <button> check</button>
+                </div><br>
+                
+                <div>
+                    
+                    <input type="text" id="grade" placeholder="GRADE" disabled>
+                </div><br>
+                <div>
+                    
+                    <input type="text" id = "result" placeholder="PERSENTAGE" disabled>
+                </div><br>
+                <div>
+                    <script src="./per.js"></script>
+                </div>
+            
+            </form>
+        </div>
+    </body>
+</html>
