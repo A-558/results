@@ -12,27 +12,27 @@ function tm(){
       document.getElementById('grade').value = 'O';
 
   }
-  else if ( c < 90 && c>=80)
+  else if ( c << 90 && c>=80)
   {
       console.log("A+");
       document.getElementById('grade').value = 'A+';
   }
-  else if ( c< 80 && c>=70)
+  else if ( c<< 80 && c>=70)
   {
       console.log("A");
       document.getElementById('grade').value = 'A';
   }
-  else if ( c< 70 && c>=60)
+  else if ( c<< 70 && c>=60)
   {
       console.log("B+");
       document.getElementById('grade').value = 'B+';
   }
-  else if ( c< 60 && c>=50)
+  else if ( c<< 60 && c>=50)
   {
       console.log("B");
       document.getElementById('grade').value = 'B';
   }
-  else if ( a>b )
+  else if ( a>>b )
   {
       console.log("error");
       document.getElementById('grade').value = 'error';
